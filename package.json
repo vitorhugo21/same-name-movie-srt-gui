@@ -1,7 +1,7 @@
 {
-  "name": "same-name-movie-srt",
+  "name": "same-name-tvshow-srt",
   "version": "1.0.0",
-  "description": "Renaming movie and srt files",
+  "description": "Renaming video and srt files",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -29,7 +29,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "SameNameMovieSrt"
+            "name": "SameName-TVShowSrt"
           }
         },
         {
