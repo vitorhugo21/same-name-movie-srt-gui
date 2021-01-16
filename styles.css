@@ -1,0 +1,107 @@
+@font-face {
+  font-family: roboto-regular;
+  src: url(./assets/roboto-font/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url(./roboto-font/Roboto-Bold.ttf);
+  src: url(./assets/roboto-font/Roboto-Bold.ttf);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: roboto-regular;
+  background-color: #E0E0E0;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 5rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+.input-name {
+  font-size: 2rem;
+  padding: 1rem;
+  display: block;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.input-name::placeholder {
+  text-align: center;
+}
+
+.btn-select-folder,
+.btn-rename-files {
+  width: 100%;
+  font-size: 2rem;
+  box-shadow: 0px 10px 14px -7px #276873;
+	background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border: 0;
+	border-radius: 8px;
+	cursor: pointer;
+	color: #fff;
+	font-family: roboto-bold;
+	padding: 1.3rem 3.2rem;
+  text-shadow: 0px 1px 0px #3d768a;
+  margin-bottom: 1.5rem;
+}
+
+.btn-select-folder:hover,
+.btn-rename-files:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color: #408c99;
+}
+
+.btn-select-folder:active,
+.btn-rename-files:active {
+  position: relative;
+	top: 1px;
+}
+
+.btn-rename-files:disabled {
+  background: none #dddddd;
+  color: rgba(0, 0, 0, 0.2);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.message {
+  font-size: 1.2rem;
+  font-family: roboto-bold;
+  letter-spacing: 0.1rem;
+  margin-top: 1.5rem;
+}
+
+.text-danger {
+  color: #FF0000;
+}
+
+.text-success {
+  color: #008000;
+}
+
+
