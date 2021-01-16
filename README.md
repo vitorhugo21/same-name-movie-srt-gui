@@ -15,4 +15,4 @@ asdf.S01E01.mkv\
 asdf.S01E01.srt
 
 # **GUI**
-![Image of the APP](https://i.imgur.com/SyrWRmS.png)
+![Image of the APP](https://i.imgur.com/LWOiDTQ.png)
